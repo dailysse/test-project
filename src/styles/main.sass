@@ -1,0 +1,45 @@
+body
+	font: 15px 'Arial'
+
+i
+	cursor: pointer
+
+#root
+	position: absolute
+	width: 100%
+	top: 50%
+	transform: translateY(-50%)
+
+.wrap
+	border: 2px solid #ddd
+	border-radius: 5px
+	overflow: hidden
+	.content
+		height: 400px
+		overflow: auto
+		padding: 15px
+		li
+			min-height: 35px
+			cursor: pointer
+			i
+				float: left
+				margin-top: 4px
+			span
+				display: block
+				padding-top: 6px
+				padding-left: 35px
+		.empty-list
+			text-align: center
+	.form-group
+		text-align: center
+		padding: 0 25px
+
+.cursive
+	font-style: italic
+
+ul, li
+	list-style: none
+	outline: none
+	text-decoration: none
+	padding: 0
+	margin: 0
